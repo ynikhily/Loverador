@@ -1,0 +1,171 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: Black;
+}
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 5px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+
+/* Download Buttons */
+
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title-Image */
+
+.title-image {
+  width: 250px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Title-Row */
+.title-row {
+  margin: 5% 0 0;
+}
+
+@media (max-width: 992px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Features */
+
+#features {
+  padding: 5% 13%;
+  color: #8f8f8f;
+  display: inline-block;
+  text-align: center;
+  vertical-align: bottom;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+
+.feature-icon {
+  font-size: 2.5rem;
+  color: #ef8172;
+  margin: 5% 0;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-image {
+  width: 20%;
+  padding: 0 5%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  color: Black;
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 20%;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  padding: 7% 10%;
+  font-size: 0.8rem;
+  color: #8f8f8f;
+}
+
+.footer-icons {
+  padding: 0 1%;
+  color: Black;
+}
